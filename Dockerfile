@@ -1,7 +1,6 @@
 FROM centos:centos7
 MAINTAINER Evandro Couto "vandocouto@gmail.com"
 
-RUN yum update -y
 RUN yum install vim net-tools openssh-server passwd ntpdate -y
 RUN touch /etc/yum.repos.d/mongodb-org-3.2.repo
 
