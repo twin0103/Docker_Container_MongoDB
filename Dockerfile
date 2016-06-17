@@ -1,5 +1,6 @@
 # imagem default
 FROM centos:centos7
+
 # Responsavel 
 MAINTAINER Evandro Couto "vandocouto@gmail.com"
 
